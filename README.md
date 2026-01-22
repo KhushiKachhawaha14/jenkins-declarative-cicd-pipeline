@@ -40,7 +40,7 @@ graph TD
 
 4. **Deploy**
 
--Implements the final deployment logic, ensuring the containerized application is running the latest verified build.
+- Implements the final deployment logic, ensuring the containerized application is running the latest verified build.
 
 ## 🔒 Security & Best Practices
 - Credential Masking: Utilizes Jenkins credential management to handle Docker Hub secrets, ensuring no sensitive data is exposed in console logs or source code.
@@ -49,7 +49,7 @@ graph TD
 
 - Optimized Dockerfile: Employs modular layers and multi-stage build logic to reduce image size and optimize caching.
 
-##🚀 Setup Instructions
+## 🚀 Setup Instructions
 - Jenkins Configuration: Ensure the **Pipeline** and **Docker Pipeline** plugins are installed on your Jenkins controller.
 
 - Credentials Setup: Add your Docker Registry credentials in Jenkins with the specific ID: docker-hub-creds.
