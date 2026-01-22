@@ -21,6 +21,7 @@ graph TD
     D --> E[Stage 3: Push to Registry]
     E --> F[Stage 4: Deploy]
     style F fill:#f9f,stroke:#333,stroke-width:2px
+```
 
 ## 🛠️ Pipeline Stages
 1. **Build**
